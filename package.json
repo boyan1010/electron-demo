@@ -1,0 +1,17 @@
+{
+  "name": "electron_remote_control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main/index.js",
+  "scripts": {
+    "start:main": "nodemon --exec electron .",
+    "start:renderer": "cd ./app/renderer/src/main && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^24.1.2",
+    "nodemon": "^2.0.22"
+  }
+}
